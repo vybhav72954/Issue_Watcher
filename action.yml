@@ -1,5 +1,5 @@
 
-name: Issue-Watchers
+name: Issue Watcher
 description: This action closes an issue based on the number of issues a person has
 inputs:
   token: # token variable available in workflow as env var named INPUT_TOKEN
