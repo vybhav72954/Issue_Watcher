@@ -4,7 +4,7 @@
 
 # Rouge Spammers with a mission to disrupt the peace of the valley ? Fear not we will STOMP the Spammers
 ## New Update : adding 'on-review' tag on an issue will stop it from being closed by the Bot allowing contributors to create more than the limited count
-This tool was created to helps you to protect your project  from being spammed. 
+This tool was created to helps you to protect your project  from being spammed.
 <br> You can customise the ``` maxIssue```  to set the maximum count of active issue a contributor can have. <br>
 The project is currently a work in progress might have bugs if you do find bugs please report it [here](https://TesseractCoding/Issue_Watcher/issues) <br>
 <img src="img/sample.jpeg" height = "500px">
@@ -14,7 +14,7 @@ The project is currently a work in progress might have bugs if you do find bugs 
 
 ```yaml
 name: check
- 
+
 on:
   issues:
     types: [opened]
@@ -44,8 +44,21 @@ jobs:
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 - If you have no idea what are issues or PRs, please do refer to [this link](https://github.com/TesseractCoding/NeoAlgo/wiki/What-is-a-Pull-Request-and-how-to-do-it%3F)
 
-Make sure your code works before submitting it and always write test for every new function that you create or improve:D
+Make sure your code works before submitting it and always write test for every new function that you create or improve :D
 
+
+# Code Styling and Linting
+We use pre-commit framework to maintain the code linting and python code styling.
+We encourage our contributors to follow the industry followed pattern, while contributing to the code.
+we would like to maintain the code thorough Linters and stylers for better quality and readability.
+
+The pre-commit configuration file is present in the repository contains the different code styling and linting guide which we use for the application.
+
+Just run pre-commit before Commiting your changes.
+Following command can be used to run the pre-commit:<br>
+```$ pre-commit run --all-files```
+
+If pre-commit is not installed in your system, it can be install with : <br> ```$ pip install pre-commit```
 ## Our Contributors
 
 [CONTRIBUTORS.md]()
