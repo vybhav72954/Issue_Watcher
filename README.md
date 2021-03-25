@@ -2,11 +2,11 @@
 <img src="img/White and Green Gaming Badge Logo.png" height = "400px">
 </p> <br>
 
-# Rouge Spammers with a mission to disrupt the peace of the valley ? Fear not we will STOMP the Spammers
+# Rogue Spammers with a mission to disrupt the peace of the valley ? Fear not we will STOMP the Spammers
 ## New Update : adding 'on-review' tag on an issue will stop it from being closed by the Bot allowing contributors to create more than the limited count
 This tool was created to helps you to protect your project  from being spammed.
-<br> You can customise the ``` maxIssue```  to set the maximum count of active issue a contributor can have. <br>
-The project is currently a work in progress might have bugs if you do find bugs please report it [here](https://TesseractCoding/Issue_Watcher/issues) <br>
+<br> You can customize the ``` maxIssue```  to set the maximum count of active issue a contributor can have. <br>
+The project is currently a work in progress, so it might have bugs. If you do find bugs, please report it [here](https://TesseractCoding/Issue_Watcher/issues) <br>
 <img src="img/sample.jpeg" height = "500px">
 ![]()
 
